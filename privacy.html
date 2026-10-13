@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>隐私政策 · HomeLab Backup</title><link rel="stylesheet" href="style.css"></head>
+<body>
+  <header><a class="brand" href="index.html">HomeLab Backup</a><nav aria-label="主导航"><a href="index.html">应用说明</a><a aria-current="page" href="privacy.html">隐私政策</a><a href="terms.html">使用条款</a></nav></header>
+  <main class="document">
+    <p class="eyebrow">PRIVACY</p><h1>隐私政策</h1><p class="muted">更新于 2026-10-14 · 适用于 HomeLab Backup</p>
+    <h2>应用及数据处理位置</h2><p>HomeLab Backup 是由部署所有者自行运行的个人备份工具。公开说明网站与备份服务相互独立。备份服务运行在部署所有者管理的设备上，数据上传至其授权的 Google Drive。</p>
+    <h2>访问的数据及用途</h2><ul><li>关联账户的邮箱与授权信息：确认连接的 Google 账户、维护授权状态以及执行已配置的备份。</li><li>使用者选定的本地系统、应用配置和文件：生成备份归档；归档可能包含私人文件及所选应用原有的敏感配置。</li><li>本应用有权访问的 Drive 文件及其名称、大小、校验值和相关元数据：上传、下载完整性校验、生成报告和按保留策略管理备份。</li><li>备份计划、运行状态和诊断信息：显示进度、排查故障及追踪备份结果。</li></ul>
+    <h2>Google Drive 权限</h2><p>应用请求 <code>https://www.googleapis.com/auth/drive.file</code>，访问由本应用创建或由使用者明确选定并授权给本应用的文件。本应用不会以此权限取得对整个云盘所有文件的普遍访问权。</p>
+    <h2>存储、安全与共享</h2><p>HomeLab 将关联凭据加密保存在本地配置中。经部署所有者批准应用设置后，备份主控保存运行备份所需的凭据，相关配置仅允许受限的系统账户读取。公开说明网站不接收这些凭据或备份数据。</p><p>Google 接收授权请求、备份文件和校验请求。Google 数据依其自身的服务条款及隐私政策处理。本应用不出售 Google 用户数据，不将这些数据用于广告，也不将其传输给通用人工智能模型用于训练。部署所有者另行选择分享或导出数据的行为由其自行管理。</p><p>云端传输使用加密连接。归档本身不应被视为已额外加密；部署所有者应按数据敏感程度管理自己的设备、Drive 账户和分享设置。</p>
+    <h2>保留与删除</h2><p>备份保留周期由部署配置决定。按三天保留策略运行时，只有在新备份验证有效等条件满足后，过期的本应用备份才移入 Drive 回收站；最后的有效备份会被保护。因此出现失败或缺少新备份时，旧备份可能保留超过三天。Google 回收站的后续处理遵循 Google Drive 的规则。</p><p>运行报告、本地归档和关联配置保存在部署所有者的设备上。使用者可在 Google Drive 管理自己的备份，并由部署管理员清理本地数据；撤销 Google 授权不会自动删除已存储的备份。</p>
+    <h2>撤销授权与联系</h2><p>使用者可在 <a href="https://myaccount.google.com/connections">Google 账户的第三方连接设置</a> 中撤销本应用访问权限。撤销后，后续备份或校验可能失败，直至重新授权。可通过 Google 授权界面显示的用户支持邮箱联系维护者，处理隐私和数据删除问题；请勿发送密钥或备份内容。</p>
+    <h2>公开说明网站</h2><p>这些说明页不使用分析脚本、广告、登录表单或追踪 Cookie。若通过 GitHub Pages 访问，GitHub 会为安全目的处理访问者 IP 等信息，详见 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隐私声明</a>。</p>
+    <h2>Google API 用户数据政策</h2><p>HomeLab Backup 对从 Google API 获取的信息的使用和转移将遵守 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>，包括其中的 Limited Use 要求。</p>
+  </main><footer>HomeLab Backup · <a href="index.html">应用说明</a> · <a href="terms.html">使用条款</a></footer>
+</body></html>
